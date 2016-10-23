@@ -25,7 +25,7 @@
         /// <summary>
         /// Returns a collection of all entity objects, matching the criteria given in "where".
         /// </summary>
-        IEnumerable<T> FindaAll<T>(string where);
+        IEnumerable<T> FindAll<T>(string where);
 
         /// <summary>
         /// Returns the first entity object.
